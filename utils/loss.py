@@ -783,7 +783,7 @@ class ComputeLossOTA:
                 matching_targets[i] = torch.cat(matching_targets[i], dim=0)
                 matching_anchs[i] = torch.cat(matching_anchs[i], dim=0)
             else:
-                device_ = 'mps' # cuda:0
+                device_ = 'cuda:0' # cuda:0
                 matching_bs[i] = torch.tensor([], device=device_, dtype=torch.int64)
                 matching_as[i] = torch.tensor([], device=device_, dtype=torch.int64)
                 matching_gjs[i] = torch.tensor([], device=device_, dtype=torch.int64)
@@ -1111,7 +1111,7 @@ class ComputeLossBinOTA:
                 matching_targets[i] = torch.cat(matching_targets[i], dim=0)
                 matching_anchs[i] = torch.cat(matching_anchs[i], dim=0)
             else:
-                device_ = 'mps' # 'cuda:0
+                device_ = 'cuda:0' # 'cuda:0
                 matching_bs[i] = torch.tensor([], device=device_, dtype=torch.int64)
                 matching_as[i] = torch.tensor([], device=device_, dtype=torch.int64)
                 matching_gjs[i] = torch.tensor([], device=device_, dtype=torch.int64)
