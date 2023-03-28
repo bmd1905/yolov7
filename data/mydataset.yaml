@@ -1,4 +1,4 @@
-train: ../train_data/train
-val: ../train_data/train
+train: ./train_data/train
+val: ./train_data/train
 nc: 6
 names: ["car", "no_left", "no_right", "go_ahead", "left", "right"]
