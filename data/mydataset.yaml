@@ -1,4 +1,6 @@
-train: ./train_data/train
-val: ./train_data/train
+train: ./car-traffic-light/train/images
+val: ./car-traffic-light/valid/images
+test: ./car-traffic-light/test/images
+
 nc: 6
-names: ["car", "no_left", "no_right", "go_ahead", "left", "right"]
+names: ["car", "go_ahead", "left", "no_left", "no_right", "right"]

@@ -27,6 +27,7 @@ storage.googleapis.com
 runs/*
 data/*
 train_data/
+pretrain/
 data/images/*
 !data/*.yaml
 !data/hyps
@@ -35,6 +36,7 @@ data/images/*
 !data/images/zidane.jpg
 !data/images/bus.jpg
 !data/*.sh
+*.pt
 
 results*.csv
 
