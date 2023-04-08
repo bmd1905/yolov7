@@ -1,0 +1,6 @@
+train: ../Data_Signs-main/train/images
+val: ../Data_Signs-main/testmAP/images
+test: ../Data_Signs-main/testmAP/images
+
+nc: 6
+names: ["car", "go_ahead", "left", "no_left", "no_right", "right"]

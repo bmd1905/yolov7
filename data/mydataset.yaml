@@ -1,6 +1,6 @@
-train: ./car-traffic-light/train/images
-val: ./car-traffic-light/valid/images
-test: ./car-traffic-light/test/images
+train: ../roboflow/car-traffic-light/train/images
+val: ../roboflow/car-traffic-light/valid/images
+test: ../roboflow/car-traffic-light/test/images
 
 nc: 6
 names: ["car", "go_ahead", "left", "no_left", "no_right", "right"]

@@ -49,6 +49,7 @@ def test(data,
     else:  # called directly
         set_logging()
         device = select_device(opt.device, batch_size=batch_size)
+        #device = torch.device('mps')
 
         # Directories
         save_dir = Path(increment_path(Path(opt.project) / opt.name, exist_ok=opt.exist_ok))  # increment run
